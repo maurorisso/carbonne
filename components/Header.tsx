@@ -6,11 +6,11 @@ import { Button } from "./ui/button";
 export default function Header() {
   const links: HeaderLink[] = [
     { title: "Features", href: "#features" },
-    { title: "Get Started", href: "#cta" },
+    { title: "Get Started", href: "/create" },
   ];
 
   return (
-    <header className="container mx-auto px-4 py-6">
+    <header className="w-10/12 mx-auto py-6 ">
       <nav className="flex justify-between items-center">
         <Logo />
         <div className="space-x-4">
@@ -23,7 +23,10 @@ export default function Header() {
               {link.title}
             </Link>
           ))}
-          <Button size="lg">Get Started</Button>
+
+          <Link href="/create">
+            <Button size="lg">Get Started</Button>
+          </Link>
         </div>
       </nav>
     </header>

@@ -139,7 +139,7 @@ export default function MarketingQuestionnaire() {
   };
 
   return (
-    <div className="text-white flex items-center justify-center ">
+    <div className=" flex items-center justify-center ">
       <motion.div
         className="w-full max-w-2xl  p-8 border-2 rounded-lg shadow-xl"
         initial={{ opacity: 0, y: 20 }}
