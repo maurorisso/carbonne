@@ -9,3 +9,9 @@ export type CreateItem = {
   icon: React.ReactNode;
   href: string;
 };
+
+export type Question = {
+  id: string;
+  question: string;
+  type: "input" | "textarea";
+};

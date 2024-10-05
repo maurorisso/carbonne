@@ -6,8 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ArrowRight, ArrowLeft } from "lucide-react";
+import { type Question } from "@/types/index";
 
-const questions = [
+const questions: Question[] = [
   {
     id: "business_description",
     question: "Please describe your business.",
@@ -110,8 +111,12 @@ const questions = [
 
 export default function MarketingQuestionnaire() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState({});
+  const [answers, setAnswers] = useState<Answers>({});
   const [direction, setDirection] = useState(1);
+
+  interface Answers {
+    [key: string]: string;
+  }
 
   const currentQuestion = questions[currentQuestionIndex];
 

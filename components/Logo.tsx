@@ -1,6 +1,8 @@
 import React from "react";
-import { Lollipop, Eclipse } from "lucide-react";
+import { Lollipop } from "lucide-react";
 import Link from "next/link";
+
+//import { Eclipse } from "lucide-react";
 
 function Logo() {
   return (

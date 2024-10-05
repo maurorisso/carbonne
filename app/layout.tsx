@@ -4,7 +4,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "cal-sans";
 import Footer from "@/components/Footer";
-import Section from "@/components/Section";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
