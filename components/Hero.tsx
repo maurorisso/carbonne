@@ -15,9 +15,17 @@ export default function Hero() {
         in one place.
       </p>
 
-      <Link href="/create">
-        <Button size="lg">Get Started</Button>
-      </Link>
+      <div className="flex gap-2">
+        <Link href="/dashboard">
+          <Button size="lg">Get Started</Button>
+        </Link>
+
+        <Link href="youtube.com">
+          <Button variant="atc" size="lg">
+            Watch Video
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }

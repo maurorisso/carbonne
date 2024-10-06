@@ -24,7 +24,7 @@ export default function Header() {
             </Link>
           ))}
 
-          <Link href="/create">
+          <Link href="/dashboard">
             <Button size="lg">Get Started</Button>
           </Link>
         </div>

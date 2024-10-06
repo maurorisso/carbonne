@@ -185,6 +185,7 @@ export default function MarketingQuestionnaire() {
             <Button
               onClick={handlePrevious}
               size="lg"
+              variant="atc"
               disabled={currentQuestionIndex === 0}
             >
               <ArrowLeft className="mr-2 h-4 w-4" /> Previous
@@ -199,7 +200,7 @@ export default function MarketingQuestionnaire() {
                 Submit
               </Button>
             ) : (
-              <Button onClick={handleNext} size="lg">
+              <Button onClick={handleNext} size="lg" variant="atc">
                 Next <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             )}

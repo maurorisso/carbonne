@@ -15,9 +15,9 @@ function Section({
 }: Props) {
   return (
     <div
-      className={`w-full py-20 ${hasBorder ? "border-t-2 border-white" : ""} ${
-        hasWhiteBackground ? "bg-stone-50" : ""
-      }
+      className={`w-full py-20 ${
+        hasBorder ? "border-t-2 border-stone-50" : ""
+      } ${hasWhiteBackground ? "bg-stone-50" : ""}
       ${className ? className : ""}
       `}
     >
