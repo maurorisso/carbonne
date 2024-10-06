@@ -1,17 +1,17 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
+import DashboardPage from "@/components/DashboardPage";
 
 const page = () => {
+  const description = "Find and manage all your projects here.";
   return (
-    <div className="border h-full p-10  rounded-md flex flex-col justify-center items-center">
-      <div className=" text-xl ">No projects created</div>
-      <p className="text-muted-foreground">
+    <DashboardPage title="Projects" description={description}>
+      <div className=" text-xl font-cal ">No projects created</div>
+      <p className="text-muted-foreground my-2">
         Create a new project to get started.{" "}
       </p>
-      <Button className="mt-4 bg-accent text-white" size="lg">
-        Create Project
-      </Button>
-    </div>
+      <Button variant="accent">Create Project</Button>
+    </DashboardPage>
   );
 };
 

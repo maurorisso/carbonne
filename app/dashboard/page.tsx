@@ -1,10 +1,11 @@
 import React from "react";
-import Sidebar from "@/components/Sidebar";
+import DashboardPage from "@/components/DashboardPage";
 const CreatePage = () => {
+  const description = "Manage , create and view all your projects here.";
   return (
-    <div>
-      <Sidebar />
-    </div>
+    <DashboardPage title="Dashboard" description={description}>
+      <div className="border rounded-md flex flex-col justify-center items-center"></div>
+    </DashboardPage>
   );
 };
 

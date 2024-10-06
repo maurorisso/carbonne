@@ -146,7 +146,7 @@ export default function MarketingQuestionnaire() {
   return (
     <div className=" flex items-center justify-center ">
       <motion.div
-        className="w-full max-w-2xl  p-8 border-2 rounded-lg shadow-xl"
+        className="w-full max-w-2xl  p-8 border-2  rounded-lg  shadow-xl"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}

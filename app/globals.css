@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Cal Sans", sans-serif;
-}
+
 
 @layer utilities {
   .text-balance {
@@ -14,7 +12,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 36 36 39;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;

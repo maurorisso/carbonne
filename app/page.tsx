@@ -10,7 +10,7 @@ export default function Home() {
         <HeroSection />
         <Section hasWhiteBackground={true} className="text-background">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Why Carbonne?</h2>
+            <h2 className="text-4xl font-bold mb-6 font-cal">Why Carbonne?</h2>
             <p className="text-xl mb-8">
               Carbonne is a platform that helps you create intelligent forms,
               gather essential information about your customers and speed-up

@@ -14,7 +14,7 @@ const Sidebar = () => {
   const items: CreateItem[] = [
     {
       title: "Carbonne",
-      href: "/",
+      href: "/dashboard",
       icon: <Lollipop className=" h-6 w-6" strokeWidth={2} />,
       description: "Home",
     },

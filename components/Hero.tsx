@@ -4,15 +4,13 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div>
-      <h1 className="text-6xl md:text-6xl font-bold mb-6">
-        Get More Clients, Elevate Your Consulting Game{" "}
+      <h1 className="text-5xl md:text-5xl font-bold mb-6 font-cal">
+        Your All-in-One Client Management tool. Elevate Your Consulting Game{" "}
         <span className="drop-shadow-glow">Today</span>
       </h1>
-
       <p className="text-xl mb-8 text-gray-300 w-11/12 ">
-        Create intelligent questionnaires, gather essential information about
-        your customers and speed-up your freelance and consulting projects. All
-        in one place.
+        Create AI-driven Forms, collect essential client insights and boost your
+        freelance and consulting projects. All in one place.
       </p>
 
       <div className="flex gap-2">
